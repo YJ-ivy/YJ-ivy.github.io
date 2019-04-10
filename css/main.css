@@ -1169,7 +1169,7 @@ strong,
 }
 
 .page-home .content .subhead a{
-	color: inherit;
+	color: #b6b6b6;
 }
 /* 6.4 Page clock countdown */
 .page-when .content{
@@ -1441,7 +1441,7 @@ strong,
 /* 6.6 About us */
 .page-about .content{
     
-    margin-top: -4rem;
+    
     border: none;
 /*
     padding-left: 1em;
@@ -1517,10 +1517,26 @@ strong,
 	height: 56px;
 	width: auto;
 }
+
+.page-register  img{
+	height: 56px;
+	width: auto;
+}
+.page-about img{
+	height: 56px;
+	width: auto;
+}
+
 .page-contact a{
     color: #fff;
 }
 .page-contact .right{
+	text-align: right;
+}
+.page-register .right{
+	text-align: right;
+}
+.page-about .right{
 	text-align: right;
 }
 	.page-contact .social-links .page-header .header-title{
