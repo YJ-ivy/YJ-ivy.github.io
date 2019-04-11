@@ -1,1 +1,0 @@
-# YJ-ivy.github.io

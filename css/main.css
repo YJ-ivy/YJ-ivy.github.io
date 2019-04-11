@@ -97,7 +97,6 @@ body, html, h1, h2, h3, h4, h5, h6, a, ul, li{
 body{
     font-family: 'OpenSans';
     background: #fff;
-    
     margin: 0;
     padding: 0;
 }
@@ -715,6 +714,7 @@ strong,
     position: fixed;
     height: 100%;
     z-index: 0;
+        margin-top: -24px;
 }
     /* 5.1. Page cover background image,color */
     .page-cover .cover-bg{
@@ -1044,6 +1044,8 @@ strong,
     color: #ffffff;
 }
 
+
+
 /* 6.2 Page and slide animation */
 .slide,
 .page .content,
@@ -1169,7 +1171,7 @@ strong,
 }
 
 .page-home .content .subhead a{
-	color: #b6b6b6;
+	color: inherit;
 }
 /* 6.4 Page clock countdown */
 .page-when .content{
@@ -1341,10 +1343,16 @@ strong,
 }
 .page .form.send_email_form .fields{
 	margin-top: 72px;
-	background: rgba(255, 255, 255, 0.10);
+	/*background: rgba(255, 255, 255, 0.10);*/
 	padding-left: 16px;
 	height: 46px;
 	min-height: 36px;
+}
+
+
+
+.page .form {
+    height: 240px;
 }
 
 .page .form.send_email_form .buttons,
@@ -1365,7 +1373,7 @@ strong,
 .page .form .fields{
 	margin-top: 24px;
 	position: relative;
-    border-bottom: 1px solid #5677fc;
+    /*border-bottom: 1px solid #5677fc;*/
 }
 .page .form .fields.no-border{
 	border: none;
@@ -1441,7 +1449,7 @@ strong,
 /* 6.6 About us */
 .page-about .content{
     
-    
+    margin-top: -4rem;
     border: none;
 /*
     padding-left: 1em;
@@ -1459,7 +1467,12 @@ strong,
 .page-contact{  
 /*    margin-top: -1rem;*/
 }
-
+.p-title img
+{
+	width: 25px;
+	    margin-bottom: 5px;
+    margin-left: 3px;
+}
 .page-contact .fp-controlArrow {
 	display: none;
 }
@@ -1517,26 +1530,10 @@ strong,
 	height: 56px;
 	width: auto;
 }
-
-.page-register  img{
-	height: 56px;
-	width: auto;
-}
-.page-about img{
-	height: 56px;
-	width: auto;
-}
-
 .page-contact a{
     color: #fff;
 }
 .page-contact .right{
-	text-align: right;
-}
-.page-register .right{
-	text-align: right;
-}
-.page-about .right{
 	text-align: right;
 }
 	.page-contact .social-links .page-header .header-title{

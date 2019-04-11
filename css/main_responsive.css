@@ -35,8 +35,8 @@ http://themeforest.net/licenses
 	
 	.page-cent .content ,
 	.page-about .content {
-		padding-left: 65px;
-		padding-right: 60px;
+		padding-left: 56px;
+		padding-right: 56px;
 	}
 	.page .form label ,
 	.page .form input ,
@@ -97,14 +97,6 @@ http://themeforest.net/licenses
 	}
 	
 	.page-contact .contact img{
-		height: 32px;
-	}
-
-	.page-register img{
-		height: 32px;
-	}
-
-	.page-about img{
 		height: 32px;
 	}
 	.page .form label{
