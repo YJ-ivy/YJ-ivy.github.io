@@ -1007,17 +1007,17 @@ strong,
 }
 .page-cent .text{	
     font-family: 'Asap';
-	color: #fff;
+	color: #b7b7b7;
 	text-align: left;
 }
 .page p{    
     font-family: 'Asap';
-    color: #ffffff;
-    font-size: 20px;
+    color: #b7b7b7;
+    font-size: 13px !important;
     margin-bottom: 0.75rem;
 }
 .page p.small{
-	font-size: 14px;
+	font-size: 13px;
 }
 .page p.center{
 	text-align: center;
@@ -1032,7 +1032,7 @@ strong,
 	text-transform: uppercase;
 	font-weight: bold;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
 	margin-bottom: 0;
 	margin-top: 0;
 }
@@ -1217,7 +1217,7 @@ strong,
     margin-top: 0.5em;
     display: block;
     text-transform: uppercase;
-    color: #fff;
+    color: #fcfcfc;
 	text-align: center;
 }
 .page .clock .block:last-child .digit:after{
@@ -1598,4 +1598,8 @@ strong,
 }
 
 
-
+.ti
+{
+	height: 40px !important;
+	width: 100px !important;
+}
