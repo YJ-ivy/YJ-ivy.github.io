@@ -714,7 +714,6 @@ strong,
     position: fixed;
     height: 100%;
     z-index: 0;
-        margin-top: -24px;
 }
     /* 5.1. Page cover background image,color */
     .page-cover .cover-bg{
@@ -758,6 +757,7 @@ strong,
     position: absolute;
     width: 100%;
     padding-top: 5rem;
+        margin-bottom: -15px;
 }
 .p-footer .icon{
 	position: absolute;
